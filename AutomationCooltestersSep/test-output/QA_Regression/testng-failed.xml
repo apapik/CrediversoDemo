@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [QA_Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TC002(failed)">
+    <classes>
+      <class name="com.opensource.qa.NAdmin">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="TC002_Admin_SearchEmployee_NotExist"/>
+        </methods>
+      </class> <!-- com.opensource.qa.NAdmin -->
+    </classes>
+  </test> <!-- TC002(failed) -->
+</suite> <!-- Failed suite [QA_Regression] -->
