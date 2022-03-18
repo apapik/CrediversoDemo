@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestGroup]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <groups>
+      <run>
+        <include name="functest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.google.CrediveroDemo2">
+        <methods>
+          <include name="Test3"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.google.CrediveroDemo2 -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [TestGroup] -->
